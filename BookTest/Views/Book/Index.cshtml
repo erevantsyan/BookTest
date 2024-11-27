@@ -1,0 +1,86 @@
+﻿@model IndexViewModel
+
+<style>
+	.glyphicon {
+		display: inline-block;
+		padding: 0 5px;
+	}
+
+	.glyphicon-chevron-right:after {
+		content: "\00BB";
+	}
+
+	.glyphicon-chevron-left:before {
+		content: "\00AB";
+	}
+</style>
+
+<h2>Список книг</h2>
+<p><a asp-action="Create">Добавить книгу</a></p>
+
+<form method="get">
+	<label>Автор: </label>
+	<input name="author" value="@Model.FilterViewModel.SelectedAuthor" />
+
+	<label>Автор: </label>
+	<input name="name" value="@Model.FilterViewModel.SelectedName" />
+
+	<label>Дата публикации: </label>
+	<input asp-for="FilterViewModel.SelectedDate" name="datePublic" value="@Model.FilterViewModel.SelectedDate" />
+
+	<input type="submit" value="Фильтр" />
+</form>
+
+<table>
+	<tr>
+		<th>
+			<a asp-action="Index"
+			   asp-route-sortOrder="@(Model.SortViewModel.AuthorSort)"
+			   asp-route-name="@(Model.FilterViewModel.SelectedName)"
+			   asp-route-author="@(Model.FilterViewModel.SelectedAuthor)"
+			   asp-route-date="@(Model.FilterViewModel.SelectedDate)">Автор</a>
+		</th>
+		<th>
+			<a asp-action="Index" asp-route-sortOrder="@(Model.SortViewModel.NameSort)"
+			   asp-route-name="@(Model.FilterViewModel.SelectedName)"
+			   asp-route-author="@(Model.FilterViewModel.SelectedAuthor)"
+			   asp-route-date="@(Model.FilterViewModel.SelectedDate)">Название</a>
+		</th>
+		<th>
+			<a asp-action="Index" asp-route-sortOrder="@(Model.SortViewModel.DateSort)"
+			   asp-route-name="@(Model.FilterViewModel.SelectedName)"
+			   asp-route-author="@(Model.FilterViewModel.SelectedAuthor)"
+			   asp-route-date="@(Model.FilterViewModel.SelectedDate)">Дата публикации</a>
+		</th>
+	</tr>
+	@foreach (Book u in Model.Books)
+	{
+		<tr><td>@u.Author</td><td>@u.Name</td><td>@u.DatePublic</td></tr>
+	}
+</table>
+<p>
+	@if (Model.PageViewModel.HasPreviousPage)
+	{
+		<a asp-action="Index"
+		   asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+		   asp-route-name="@(Model.FilterViewModel.SelectedName)"
+		   asp-route-company="@(Model.FilterViewModel.SelectedAuthor)"
+		   asp-route-date="@(Model.FilterViewModel.SelectedDate)"
+		   asp-route-sortorder="@(Model.SortViewModel.Current)"
+		   class="glyphicon glyphicon-chevron-left">
+			Назад
+		</a>
+	}
+	@if (Model.PageViewModel.HasNextPage)
+	{
+		<a asp-action="Index"
+		   asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+		   asp-route-name="@(Model.FilterViewModel.SelectedName)"
+		   asp-route-company="@(Model.FilterViewModel.SelectedAuthor)"
+		   asp-route-date="@(Model.FilterViewModel.SelectedDate)"
+		   asp-route-sortorder="@(Model.SortViewModel.Current)"
+		   class="glyphicon glyphicon-chevron-right">
+			Вперед
+		</a>
+	}
+</p>

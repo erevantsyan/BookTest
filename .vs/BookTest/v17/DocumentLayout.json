@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|c:\\users\\ep1k3\\source\\repos\\booktest\\booktest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|solutionrelative:booktest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|c:\\users\\ep1k3\\source\\repos\\booktest\\booktest\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|solutionrelative:booktest\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|c:\\users\\ep1k3\\source\\repos\\booktest\\booktest\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|solutionrelative:booktest\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|c:\\users\\ep1k3\\source\\repos\\booktest\\booktest\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|solutionrelative:booktest\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|c:\\users\\ep1k3\\source\\repos\\booktest\\booktest\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|solutionrelative:booktest\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|c:\\users\\ep1k3\\source\\repos\\booktest\\booktest\\models\\sortbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|solutionrelative:booktest\\models\\sortbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|c:\\users\\ep1k3\\source\\repos\\booktest\\booktest\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|solutionrelative:booktest\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|c:\\users\\ep1k3\\source\\repos\\booktest\\booktest\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B32F45C8-4095-436A-9A92-8959551F57B8}|BookTest\\BookTest.csproj|solutionrelative:booktest\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\appsettings.json",
+              "RelativeDocumentMoniker": "BookTest\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\appsettings.json",
+              "RelativeToolTip": "BookTest\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T13:41:09.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookTest\\Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "BookTest\\Views\\Book\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:36:10.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookTest\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookTest\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwEMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:01:32.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Models\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "BookTest\\Models\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Models\\ApplicationContext.cs",
+              "RelativeToolTip": "BookTest\\Models\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:34:19.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SortBook.cs",
+              "DocumentMoniker": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Models\\SortBook.cs",
+              "RelativeDocumentMoniker": "BookTest\\Models\\SortBook.cs",
+              "ToolTip": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Models\\SortBook.cs",
+              "RelativeToolTip": "BookTest\\Models\\SortBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:54:40.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Models\\IndexViewModel.cs",
+              "RelativeDocumentMoniker": "BookTest\\Models\\IndexViewModel.cs",
+              "ToolTip": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Models\\IndexViewModel.cs",
+              "RelativeToolTip": "BookTest\\Models\\IndexViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:23:56.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "BookTest\\Views\\Book\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "BookTest\\Views\\Book\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T21:21:08.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BookTest\\Views\\Book\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ep1k3\\source\\repos\\BookTest\\BookTest\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "BookTest\\Views\\Book\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T21:22:01.532Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
