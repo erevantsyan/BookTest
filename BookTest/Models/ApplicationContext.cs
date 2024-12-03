@@ -11,5 +11,11 @@ namespace BookTest.Models
         {
             Database.EnsureCreated();
         }
-    }
+
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Book>().HasKey(e => e.Id);
+        }
+
+	}
 }

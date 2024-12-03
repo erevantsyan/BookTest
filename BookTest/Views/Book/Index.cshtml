@@ -55,7 +55,19 @@
 	</tr>
 	@foreach (Book u in Model.Books)
 	{
-		<tr><td>@u.Author</td><td>@u.Name</td><td>@u.DatePublic</td></tr>
+		<tr><td>@u.Author</td><td>@u.Name</td><td>@u.DatePublic</td>
+			<td>
+				<a asp-action="Details" asp-controller="Book" asp-route-id="@u.Id">Просмотр</a>
+			</td>
+			<td>
+				<a asp-action="Edit" asp-controller="Book" asp-route-id="@u.Id">Изменить</a>
+            </td>
+            <td>
+				<form asp-controller="Book" asp-action="Delete" method="post" asp-route-id="@u.Id">
+                    <input type="submit" value="Удалить" />
+                </form>
+            </td>
+		</tr>
 	}
 </table>
 <p>
