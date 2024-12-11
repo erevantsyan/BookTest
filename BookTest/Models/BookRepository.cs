@@ -31,7 +31,7 @@ namespace BookTest.Models
 			return result;
 		}
 
-		public async Task<Book?> GetByIdAsync(int id)
+		public async Task<Book> GetByIdAsync(int id)
 		{
 			var result = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);
 			return result;
