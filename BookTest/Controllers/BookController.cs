@@ -44,7 +44,7 @@ namespace BookTest.Controllers
 		}
 
         [HttpPost]
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
             if (id != null)
             {
@@ -58,7 +58,7 @@ namespace BookTest.Controllers
 			return View("NotFound");
 		}
 
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
             if (id != null)
             {
@@ -78,7 +78,7 @@ namespace BookTest.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-		public async Task<IActionResult> Details(int? id)
+		public async Task<IActionResult> Details(int id)
 		{
 			if (id != null)
 			{

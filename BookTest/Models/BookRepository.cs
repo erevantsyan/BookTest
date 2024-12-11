@@ -25,54 +25,13 @@ namespace BookTest.Models
 			await _context.SaveChangesAsync();
 		}
 
-		public async Task<IEnumerable<Book>> GetAllAsync(string author, 
-			string name, DateTime datePublic, SortBook sortOrder,
-			int page, int pageSize)
+		public async Task<IQueryable<Book>> GetAllAsync()
 		{
-			IQueryable<Book> books = _context.Books;
-
-			if (!string.IsNullOrEmpty(author))
-			{
-				books = books.Where(p => p.Author!.Contains(author));
-			}
-			if (!string.IsNullOrEmpty(name))
-			{
-				books = books.Where(p => p.Name!.Contains(name));
-			}
-			if (datePublic != DateTime.MinValue)
-			{
-				books = books.Where(p => p.DatePublic == datePublic);
-			}
-
-			switch (sortOrder)
-			{
-				case SortBook.NameDesc:
-					books = books.OrderByDescending(s => s.Name);
-					break;
-				case SortBook.AuthorAsc:
-					books = books.OrderBy(s => s.Author);
-					break;
-				case SortBook.AuthorDesc:
-					books = books.OrderByDescending(s => s.Author);
-					break;
-				case SortBook.DateAsc:
-					books = books.OrderBy(s => s.DatePublic);
-					break;
-				case SortBook.DateDesc:
-					books = books.OrderByDescending(s => s.DatePublic);
-					break;
-				default:
-					books = books.OrderBy(s => s.Name);
-					break;
-			}
-
-			return await books
-				.Skip((page - 1) * pageSize)
-				.Take(pageSize)
-				.ToListAsync();
+			IQueryable<Book> result = _context.Books;
+			return result;
 		}
 
-		public async Task<Book?> GetByIdAsync(int? id)
+		public async Task<Book?> GetByIdAsync(int id)
 		{
 			var result = await _context.Books.FirstOrDefaultAsync(x => x.Id == id);
 			return result;
